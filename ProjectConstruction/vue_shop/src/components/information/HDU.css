@@ -1,0 +1,333 @@
+/* html.style */
+:root {
+    --swiper-navigation-size: 44px;
+}
+
+:root {
+    --swiper-theme-color: #007aff;
+}
+
+button,
+html,
+input,
+select,
+textarea {
+    font-family: "Helvetica Neue", Helvetica, Arial, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+}
+
+html {
+    font-size: 12px;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+
+user agent stylesheet html {
+    display: block;
+}
+
+/* feature_poster */
+.feature_poster {
+    margin-top: 20px;
+}
+
+user agent stylesheet div {
+    display: block;
+}
+
+body {
+    color: #333;
+    background-color: #fff;
+    line-height: 1.5;
+}
+
+/* poster */
+.poster {
+    width: 100%;
+    background: #FFF;
+    /* border: solid 1px #E5E5E5; */
+    /* box-shadow: 0 2px 3px -2px #d5d5d5; */
+    position: relative;
+    zoom: 1;
+}
+
+.poster:after {
+    content: '\0020';
+    display: block;
+    height: 0;
+    font-size: 0;
+    clear: both;
+    overflow: hidden;
+    visibility: hidden;
+}
+
+/* poster-left */
+.poster .poster-left {
+    float: left;
+    width: 70%;
+    padding-left: 50px;
+    color: #333;
+    position: relative;
+}
+
+/* poster-top */
+.poster .poster-top {
+    *zoom: 1;
+}
+
+.poster .poster-top:after {
+    content: '\0020';
+    display: block;
+    height: 0;
+    font-size: 0;
+    clear: both;
+    overflow: hidden;
+    visibility: hidden;
+}
+
+/* lemma-summary J-summary */
+.lemma-summary {
+    clear: both;
+    font-size: 14px;
+    word-wrap: break-word;
+    color: #333;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    text-indent: 2em;
+    line-height: 24px;
+    zoom: 1;
+}
+
+/* para */
+.feature .body-wrapper .feature_poster .para {
+    margin-bottom: 5px;
+}
+
+.poster .poster-top .para {
+    margin-bottom: 5px;
+}
+
+.body-wrapper .para {
+    font-size: 14px;
+    word-wrap: break-word;
+    color: #333;
+    margin-bottom: 15px;
+    text-indent: 2em;
+    line-height: 24px;
+    zoom: 1;
+}
+
+/* poster-middle */
+.poster-middle {
+    zoom: 1;
+}
+
+.poster .poster-middle:after {
+    content: '\0020';
+    display: block;
+    height: 0;
+    font-size: 0;
+    clear: both;
+    overflow: hidden;
+    visibility: hidden;
+}
+
+/* poster-bottom */
+.poster .poster-bottom {
+    margin-right: -30px;
+    zoom: 1;
+}
+
+.poster .poster-bottom:after {
+    content: '\0020';
+    display: block;
+    height: 0;
+    font-size: 0;
+    clear: both;
+    overflow: hidden;
+    visibility: hidden;
+}
+
+/* basBox */
+.poster .baseBox {
+    float: left;
+    margin-bottom: 1px;
+    max-height: 145px;
+    overflow: visible;
+}
+
+.baseBox {
+    display: block;
+    float: left;
+    margin-bottom: 1px;
+    max-height: 139px;
+    overflow: hidden;
+}
+
+/* d1-baseinfo */
+.poster .baseBox .dl-baseinfo dl {
+    zoom: 1;
+    position: relative;
+    padding-right: 20px;
+    border-bottom: dashed 1px #e5e5e5;
+}
+
+.baseBox .dl-baseinfo dl {
+    zoom: 1;
+    padding-right: 20px;
+    border-bottom: dashed 1px #e5e5e5;
+}
+
+blockquote,
+body,
+button,
+dd,
+dl,
+dt,
+fieldset,
+figure,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+input,
+legend,
+li,
+ol,
+p,
+pre,
+select th,
+td,
+textarea,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+user agent stylesheet dl {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.poster .baseBox .dl-baseinfo {
+    width: 395px;
+    float: left;
+    font-size: 14px;
+    color: #747474;
+    z-index: 10;
+    word-break: break-all;
+    overflow: visible;
+}
+
+.baseBox .dl-baseinfo {
+    width: 395px;
+    float: left;
+    font-size: 14px;
+    color: #333;
+    z-index: 10;
+    word-break: break-all;
+    overflow: hidden;
+}
+
+.poster .baseBox .dl-baseinfo dl:after {
+    content: '\0020';
+    display: block;
+    height: 0;
+    font-size: 0;
+    clear: both;
+    overflow: hidden;
+    visibility: hidden;
+}
+
+/* collapseDD */
+.poster .baseBox .dl-baseinfo dd.collapseDD {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    word-wrap: normal;
+    height: 34px;
+    overflow: hidden;
+}
+
+.poster .baseBox .dl-baseinfo dd {
+    padding-left: 22px;
+    width: 293px;
+}
+
+.poster .baseBox .dl-baseinfo dt,
+.poster .baseBox .dl-baseinfo dd {
+    display: block;
+    float: left;
+    min-height: 34px;
+    line-height: 34px;
+    font-size: 14px;
+}
+
+user agent stylesheet dd {
+    display: block;
+    margin-inline-start: 40px;
+}
+
+/* bottomLine */
+.poster .baseBox .dl-baseinfo .bottomLine {
+    min-height: 34px;
+    line-height: 34px;
+    border: 0;
+    padding-bottom: 0;
+}
+
+.poster .baseBox .dl-baseinfo dl:after {
+    content: '\0020';
+    display: block;
+    height: 0;
+    font-size: 0;
+    clear: both;
+    overflow: hidden;
+    visibility: hidden;
+}
+
+/* poster-right */
+.poster .poster-right {
+    float: right;
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+}
+
+/* summary-pic */
+.poster .summary-pic {
+    float: right;
+}
+
+.feature .summary-pic {
+    overflow: hidden;
+    max-height: 362px;
+    margin-right: 20px;
+}
+
+.wiki-lemma .summary-pic {
+    width: 268px;
+    border: solid 1px #DDD;
+    margin-bottom: 20px;
+    box-shadow: 1px 1px 1px #ccc;
+    position: relative;
+    font-size: 0;
+    line-height: 0;
+}
+
+/* img */
+.summary-pic img {
+    margin: 0 auto;
+    display: block;
+    width: 268px;
+}
+
+img {
+    border: 0;
+    -ms-interpolation-mode: bicubic;
+}
